@@ -1,0 +1,27 @@
+/*Inicia o site*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+$font-page: 'Source Sans Pro', sans-serif;
+$primary-color:#343a46;
+
+body {
+  font: 100% $font-page;
+  background-color: #fff;
+
+  h1 {
+    color: $primary-color;
+  }
+}
